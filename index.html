@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Virus Detected</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+body {
+    background-color: tomato0;
+}
+</style>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Google Anti-Virus</a>
+    </div>
+    <ul class="nav navbar-nav">
+  
+    </ul>
+  </div>
+</nav>
+
+<h2>Warning! Virus Detected</h2>
+<h4> Mutiple Threats have been found on this device. Leaving this page will result in hard drive deletion.</h4>
+<p> </p>
+<p>  </p>
+
+
+<div class="alert alert-danger">
+  <strong>Threat Level:</strong> <div class="progress">
+  
+  <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+  <b>High</b>
+    
+  </div>
+</div>
+</div>
+
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">Threats <span class="badge">4</span></button>
+
+
+
+
+<div class="container">
+            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>File</th>
+        <th>Threat Level</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>scareware0281.bat</td>
+        <td><div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%">
+    70%
+  </div>
+</div></td>
+       
+      </tr>
+      <tr>
+        <td>trojan/banking94.exe</td>
+        <td><div class="progress">
+  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:52%">
+    52%
+  </div>
+</div></td>
+       
+      </tr>
+      <tr>
+        <td>malware83823084.dll</td>
+        <td><div class="progress">
+  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:95%">
+    95%
+  </div>
+</div></td>
+       </tr>
+      <tr>
+        <td>spyware843.exe</td>
+        <td><div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:30%">
+    30%
+  </div>
+</div></td>      
+      </tr>
+    </tbody>
+  </table>
+</div>
+<script>
+function failure() {
+if (document.getElementById("12345") == "12473") {
+	document.getElementById("12345").innerHTML =  "LOL! U just got trooooolllllled! U don't have a virus! HAHAHAHAHAHHA!";
+	}
+else {
+	document.getElementById("12345").innerHTML =  "Incorrect Code";
+}
+}
+function help() {
+//document.getElementById("12345").innerHTML =  "If at first you don't succeed, try try again.";
+document.getElementById("12345").innerHTML =  "LOL! U just got trooooolllllled! U don't have a virus! HAHAHAHAHAHHA!";
+}
+</script>
+<div class="container">
+  <div class="jumbotron">
+<p>Warning! This device has several viruses. Leaving this page will result in hard drive deletion. Please download our cheap and user-friendly anti-malware program.</p>
+
+     <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Click here to download</button> <button type="button" class="btn btn-danger" onclick="help()">Format Hard-Drive</button><p id=12345></p>
+     <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Blocked</h4>
+      </div>
+      <div class="modal-body">
+        <p>This Program has been blocked by <code>malware83823084.dll</code></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+</div>
+</body>
+</html>
