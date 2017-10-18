@@ -112,6 +112,11 @@ function help() {
 //document.getElementById("12345").innerHTML =  "If at first you don't succeed, try try again.";
 document.getElementById("12345").innerHTML =  "LOL! U just got trooooolllllled! U don't have a virus! HAHAHAHAHAHHA!";
 }
+function virus() {
+document.getElementById("download").innerHTML =  "<p>This Program has been blocked by <code>malware83823084.dll</code></p>";
+document.getElementById("hide").innerHTML =  "";
+document.getElementById("hide2").innerHTML =  "";
+	}
 </script>
 <div class="container">
   <div class="jumbotron">
@@ -126,14 +131,35 @@ document.getElementById("12345").innerHTML =  "LOL! U just got trooooolllllled! 
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Blocked</h4>
+        <h4 class="modal-title" id=header>Login to Google</h4>
       </div>
       <div class="modal-body">
-        <p>This Program has been blocked by <code>malware83823084.dll</code></p>
+        <!--<p>This Program has been blocked by <code>malware83823084.dll</code></p>-->
+        <p>
+        <form>
+       
+  <div class="input-group" id=download>
+  
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+  <div class="input-group" id=hide>
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  
+</form>
+      
       </div>
+      <div class="modal-footer" id=hide2>
+      <button type="button" class="btn btn-success" onclick=virus() >Submit</button>
+         </div>
       <div class="modal-footer">
+      
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
+    </div>
+      </div> 
     </div>
 
   </div>
